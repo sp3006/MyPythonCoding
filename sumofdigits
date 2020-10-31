@@ -1,0 +1,12 @@
+## This problem solved with 99.09 faster
+class Solution:
+    def solve(self, num):
+        sum = 0
+        while (num != 0): 
+          
+            sum = sum + int(num % 10) 
+            num = int(num/10) 
+          
+        return sum
+n = 687
+print(getSum(n)) 
